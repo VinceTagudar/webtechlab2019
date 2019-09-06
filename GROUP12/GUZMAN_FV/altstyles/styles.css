@@ -1,0 +1,353 @@
+body, html {
+	height: 100%;
+  	line-height: 1.8;
+}
+
+body, h1 {
+	text-align: center;
+	font-family: "Raleway";
+}
+
+.bgimg {
+  background-image: linear-gradient(to right, red, white, blue);
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.P-INDEX {
+  color: orange;
+}
+
+.blink-one {
+	color: #f2ae72;
+	font-size: 17px;
+	animation: blinker-one 1s linear infinite;
+}
+@keyframes blinker-one {  
+	0% { opacity: 0; }
+}
+
+.box {
+  top: 50%;
+  left: 50%;
+  width: 450px;
+  padding: 50px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0,0,0,.5);
+}
+
+.WELCOME {
+	font-size: 15px;
+}
+
+.PPWS {
+ 	color: #dac292;
+ 	font-size: 40px;
+ 	text-shadow: 4px 4px 6px #b2b2b2;
+}
+
+.PERSONAL {
+	font-size: 50px;
+}
+
+.PW {
+	font-size: 30px;
+}
+
+ul {
+  top: 5px;
+}
+
+.A-BONUS {
+	color: black;
+  	overflow: hidden;
+  	transform: translate(50%);
+}
+
+A-BONUS:before {
+  top: 2px;
+  left: 2px;
+  width: 50%;
+  bottom: 2px;
+  position: absolute;
+}
+
+.A-BONUS span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, black, #ffcc5c)
+    ;
+  animation: animate1 2s linear infinite;
+}
+@keyframes animate1 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.A-BONUS span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, black, #ffcc5c)
+    ;
+  animation: animate2 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate2 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.A-BONUS span:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to left, black, #ffcc5c)
+    ;
+  animation: animate3 2s linear infinite;
+}
+@keyframes animate3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.A-BONUS span:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to top, black, #ffcc5c)
+    ;
+  animation: animate4 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate4 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.menu {
+  overflow: visible;
+  background-color: #333;
+  height: 100px;
+
+  width: 100%;
+  display: inline-block;
+}
+
+nav {
+  position: relative;
+  float: left;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  padding: 33px 20px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  background: #ffcc5c;
+  color: #000;
+}
+
+nav ul li ul {
+  display: block;
+  border-bottom: rgba(255,255,255,.5);
+  min-width: 250px;
+  position: absolute;
+  margin-top: 1px;
+  box-shadow: 0 2px 5px rgba(0,0,0,.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s;
+  transform: translateY(40px);
+}
+
+.A-BONUS {
+  display: block;
+  border-bottom: rgba(255,255,255,.5);
+  min-width: 250px;
+  position: absolute;
+  margin-top: 1px;
+  box-shadow: 0 2px 5px rgba(0,0,0,.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s;
+  transform: translateY(40px);
+
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+
+  padding: 10px;
+}
+
+nav ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(90px);
+}
+
+nav ul li ul li a {
+  padding: 10px;
+}
+
+.BPI {
+	font-size: 25px;
+	text-align: center;
+	background-color: #7e4a35;
+}
+
+hr {
+	width: 30%;
+	border-width: 2px;
+	border-color: #484f4f;
+}
+
+.PARAG {
+	font-size: 18px;
+	text-align: center;
+}
+
+.WORSE {
+	color: red;
+}
+
+.MH-YEAR {
+	font-size: 17px;
+}
+
+.PASSION {
+	text-align: center;
+}
+
+.PASSION-END {
+	color: #d96459;
+	font-size: 20px;
+	text-align: center;
+}
+
+.AW-LOGO {
+	width: 80px;
+	height: 80px;
+}
+
+.PLAIN {
+	font-size: 40px;
+	text-align: center;
+}
+
+.EXTREME-HOBBIES {
+	font-size: 25px;
+	text-align: center;
+	background-color: #bc5a45;
+}
+
+.LAME-HOBBIES {
+	font-size: 25px;
+	text-align: center;
+	background-color: #86af49;
+}
+
+.UL {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+
+.LI1, .LI2, .LI3, .LI4 {
+  float: left;
+}
+
+.LI1, .LI2, .LI3, .LI4, .A1, .A2, .A3, .A4 {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.TOP, .BOTTOM, .MEME-PIC, .MEMES {
+	text-align: center;
+}
+
+.span-colored {
+	font-size: 55px;
+	background: -webkit-linear-gradient(orange, black);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.random {
+	background-image: linear-gradient(to right, red, white, black);
+}
+
+.BUTTON {
+	color: white;
+}
+
+.AW {
+	color: black;
+}
+
+.FOOTER {
+	bottom: 0;
+	top: 100px;
+	width: 100%;
+	color: black;
+	height: 13.5rem;
+	font-size: 13px;
+	padding-top: 30px;
+	position: relative;
+	text-align: center;
+	padding-bottom: 100px;
+	background-color: #3e4444;
+}

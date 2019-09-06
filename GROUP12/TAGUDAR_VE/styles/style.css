@@ -1,0 +1,168 @@
+body {
+    margin: 150px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #444 url(../img/bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  h1{
+    text-align: center;
+    color: blanchedalmond;
+  }
+
+  ul.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  }
+
+  li.li1{
+    float: left;
+  }
+
+  li.li2{
+    float: left;
+  }
+
+  li.li3{
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: darkgray;
+  }
+
+  img.headpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 420px;
+  }
+
+  .b1 {
+      text-align: justify;
+      text-indent: 50px;
+      color: azure;
+      line-height: 1.6;
+  }
+
+  h3.wrong{
+      font-style: italic, bold; 
+      text-align: center;
+      color: firebrick;
+      text-decoration-style: solid;
+  }
+
+  .b2 {
+    text-align: justify;
+    text-indent: 50px;
+    color: azure;
+    line-height: 1.6;
+}
+    h2.hobbies{
+    text-align: center;
+    color: blanchedalmond;
+    }
+
+  .b3{
+    text-align: justify;
+    text-indent: 50px;
+    color: azure;
+    line-height: 1.6;
+    }
+
+  .b4{
+    text-align: justify;
+    text-indent: 50px;
+    color: azure;
+    line-height: 1.6;
+  }
+
+  .b5{
+    text-align: justify;
+    text-indent: 50px;
+    color: azure;
+    line-height: 1.6;
+  }
+
+  img.img1{
+    float: left; margin: 15px 15px 15px 15px;
+    height: 200px;
+    width: 200px;
+  }
+
+  img.img2{
+    float: left; margin: 15px 15px 15px 15px;
+    height: 200px;
+    width: 250px;
+  }
+
+  img.img3{
+    float: left; margin: 15px 15px 15px 15px;
+    height: 200px;
+    width: 500px;
+  }
+
+  img.img4{
+    float: left; margin: 15px 15px 15px 15px;
+    height: 200px;
+    width: 400px;
+  }
+
+  img.img5{
+    float: left; margin: 15px 15px 15px 200px;
+    height: 200px;
+    width: 400px;
+  }
+
+  img.img6{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 600px;
+  }
+ 
+  h2.headstr{
+    text-align: center;
+    color: blanchedalmond;
+  }
+
+  h2.headweak{
+    text-align: center;
+    color: blanchedalmond;
+  }
+
+  .strength{
+    text-align: justify;
+    text-indent: 50px;
+    color: azure;
+    line-height: 1.6;
+  }
+
+  .weakness {
+    text-align: justify;
+    text-indent: 50px;
+    color: azure;
+    line-height: 1.6;
+  }

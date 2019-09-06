@@ -1,0 +1,190 @@
+body {
+    margin: 150px;
+    margin-top: 10px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background: #444 url(../img/bg2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
+  ul.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(163, 19, 19);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  }
+
+  li.li1{
+    float: left;
+  }
+
+  li.li2{
+    float: left;
+  }
+
+  li.li3{
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(46, 45, 45);
+  }
+  
+  .active {
+    background-color: rgb(0, 0, 0);
+  }
+
+  img.headpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 420px;
+  }
+
+  .b1 {
+    border-style: groove;
+    background-color: rgb(68, 68, 68, .8);
+    text-align: justify;
+      text-indent: 50px;
+      color: rgb(255, 255, 255);
+      line-height: 1.6;
+  }
+
+  h3.wrong{
+    border-style: groove;
+    background-color: rgb(68, 68, 68, .8); 
+      font-style: bold; 
+      text-align: center;
+      color: rgb(216, 18, 18);
+      text-decoration-style: solid;
+  }
+
+  .b2 {
+    border-style: groove;
+    background-color: rgb(68, 68, 68, .8); 
+    text-align: justify;
+    text-indent: 50px;
+    color: azure;
+    line-height: 1.6;
+}
+    h2.hobbies{
+    text-align: center;
+    color: blanchedalmond;
+    }
+
+  .b3{
+    border-style: groove;
+    background-color: rgb(68, 68, 68, .8); 
+    text-align: justify;
+    text-indent: 50px;
+    color: azure;
+    line-height: 1.6;
+    }
+
+  .b4{
+    border-style: groove;
+    background-color: rgb(68, 68, 68, .8); 
+    text-align: justify;
+    text-indent: 50px;
+    color: azure;
+    line-height: 1.6;
+  }
+
+  .b5{
+    border-style: groove;
+    background-color: rgb(68, 68, 68, .8); 
+    text-align: justify;
+    text-indent: 50px;
+    color: azure;
+    line-height: 1.6;
+  }
+
+  img.img1{
+    float: left; margin: 15px 15px 15px 15px;
+    height: 200px;
+    width: 200px;
+  }
+
+  img.img2{
+    float: left; margin: 15px 15px 15px 15px;
+    height: 200px;
+    width: 250px;
+  }
+
+  img.img3{
+    float: left; margin: 15px 15px 15px 15px;
+    height: 200px;
+    width: 500px;
+  }
+
+  img.img4{
+    float: left; margin: 15px 15px 15px 15px;
+    height: 200px;
+    width: 400px;
+  }
+
+  img.img5{
+    float: left; margin: 15px 15px 15px 200px;
+    height: 200px;
+    width: 400px;
+  }
+
+  img.img6{
+    border-style: groove;
+    background-color: rgb(68, 68, 68, .8); 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 600px;
+  }
+ 
+  h2.headstr{
+    border-style: groove;
+    background-color: rgb(68, 68, 68); 
+    text-align: center;
+    color: blanchedalmond;
+  }
+
+  h2.headweak{
+    border-style: groove;
+    background-color: rgb(68, 68, 68); 
+    text-align: center;
+    color: blanchedalmond;
+  }
+
+  .strength{
+    border-style: groove;
+    background-color: rgb(68, 68, 68, .8); 
+    text-align: justify;
+    text-indent: 50px;
+    color: azure;
+    line-height: 1.6;
+  }
+
+  .weakness {
+    border-style: groove;
+    background-color: rgb(68, 68, 68, .8); 
+    text-align: justify;
+    text-indent: 50px;
+    color: azure;
+    line-height: 1.6;
+  }

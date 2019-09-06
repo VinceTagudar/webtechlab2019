@@ -1,0 +1,1554 @@
+.tagline {
+    margin-top: 17%;
+    margin-left: 5%;
+    font-size: 50px !important;
+    text-align: left;
+    color: white;
+    margin-right: 100px;
+}
+
+/*
+.navi {
+    padding-bottom: 20px;
+    padding-top: 10%;
+    padding-left: 3%;
+    float: left;
+    width: 70%;
+    padding: 10px;
+    flex: 50%;
+    margin-top: 5px;
+}
+*/
+
+
+
+
+
+.first {
+    background-color: rgb(149, 141, 72);
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-left: -0vw;
+    color:white;
+    text-align: center;
+    height: 245px;
+    margin-left: -10px;
+    margin-right: -8px;
+    margin-top: 75px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+    background-repeat: no-repeat;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.side {
+    background-color:white;
+}
+
+.center{
+   background-color:#bbb; 
+}
+.left{
+    background: black;
+}
+
+.right{
+    background: white;
+}
+
+.two{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    flex: 50%;
+}
+
+
+/*.logo {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3%;
+    float: right;
+    width: 30%;
+    padding: 10px;
+    height: 70px;
+
+}*/
+
+img.logo-img {
+
+}
+
+.separator {
+
+}
+
+#row {
+    padding-top: 50px;
+}
+
+.top {
+
+    background: #100329;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.work-top {
+    padding-top: 0px;
+    background: #100329;
+
+}
+.down{
+    margin-top: 70px;
+}
+
+
+.a-navi{
+/*    border: 2px solid #19b8ff;*/
+/*    border-radius: 5px;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+div#about-us {
+    background-color: white;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -8px;
+}
+
+h2{
+    font-size: 40px;
+
+    color: white;
+}
+
+
+.logo-img{
+    background-image: url(../images/LOGO-B.png);
+    background-repeat: no-repeat;
+    height: 50px !important;
+    max-height: 80px !important;
+    margin-left:     margin-left: -7px;;
+    padding: 25px 25px 0px 200px;
+    margin-top: -15px;
+    background-size: contain;       
+
+}
+
+
+
+.animate{
+    background-image: url(../images/down.png);
+    background-repeat: no-repeat;
+    height: 80px !important;
+    max-height: 80px !important;
+    font-size: 20px;
+    color:white;
+
+    position: relative;
+    animation-name: floating1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-left: 48.5%;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+    margin-top: 10px;
+}
+
+@keyframes floating{
+0% {
+    margin-top: 10px;
+}
+
+
+
+50% {
+    margin-top: 30px;
+}
+
+
+100% {
+    margin-top: 10px;
+}
+}
+
+html {
+    /*background-image: url("bg3.jpg");*/
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+nav{
+    height: 50px;
+    background: #fefff3;
+    position: sticky;
+    top: 0;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-top: -8px;
+}
+
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0 100PX;
+    float: right;
+    margin-top: -14px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul  li *{
+    display: block;
+    color: #444;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+    font-size:  12px;
+}
+
+header{
+    background: #ffffff42;
+}
+
+.ul-left{
+    display: flex;
+    margin: 0;
+    float: left;
+}
+
+
+
+.more-skills{
+    text-align: center;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+
+
+.skill-left{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 300px;
+    flex: 30%;
+    background: #e19054;
+    padding-top: 50px;
+}
+.skill-right{
+    float: right;
+    width: 70%;
+    padding: 10px;
+    height: 300px;
+    flex: 70%;
+    background: #fff7df;
+}
+
+.illus-left{
+    float: left;
+    width: 70%;
+    padding: 10px;
+    height: 300px;
+    flex: 30%;
+    background: #feffeb;
+}
+.illus-right{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    height: 300px;
+    flex: 70%;
+    background: #e19054;
+}
+
+div.works
+{
+    /*background-image: url("cover.png");*/
+    background-color: #fefff3;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: -10px;
+    margin-right: -8px;
+    margin-top: -8px;
+}
+
+
+
+.autumn{
+    float: right;
+    width: 43.4%;
+    padding: 10px;
+    height: 500px;
+    flex: 43.3%;
+    background-image: url(../images/A2.png);
+    background-size: 667px;
+    background-repeat: no-repeat;
+}
+
+.season{
+    float: left;
+    width: 56.6%;
+    height: 500px;
+
+}
+
+.work2{
+
+}
+
+
+
+
+
+.winter{
+    background-image: url(../images/3.jpg);
+
+}
+
+.spring{
+
+    background-image: url(../images/A1.png);
+
+}
+
+.t-right{
+    float: left;
+}
+.t-left{
+    float: left;
+}
+
+.s-fit{
+    float: right;
+    width: 50%;
+    padding: 10px;
+    height: 250px;
+    flex: 28.3%;
+    background-size: 435px;;
+    background-repeat: no-repeat;
+}
+
+.text{
+    width: 50%;
+    padding: 10px;
+    height: 250px;
+    flex: 28.3%;
+    background: #ffebd2;
+}
+
+.comment{
+    background-color: white;
+    height: 250px;
+    color: white;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+h3{
+    color: white;
+}
+
+h4 {
+    font-size: 40px;
+    margin-bottom: 0px !important;
+}
+
+/*h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}*/
+
+.cloud{
+    background-image: url("../images/cloud down.png");
+    background-repeat: no-repeat;
+    height: 80px !important;
+    max-height: 80px !important;
+    font-size: 20px;
+    color:white;
+    background-size: contain;    
+
+    position: relative;
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-left: 48.5%;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+    margin-top: 10px;
+}
+
+#illus{
+    background: white;
+
+}
+
+.title{
+    color: #000;
+}
+
+.work.fly {
+    background: #ffebd2;
+    height: 650px !important;
+    border-top: 1px solid #777;
+    padding-top: 20px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+
+.column.fly{
+
+    float: left;
+    width: 30%;
+    height: 385px;
+    background-repeat: no-repeat;  
+    border-radius: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px; 
+    border: 2px solid black; 
+
+}
+
+
+.fly{
+    background-position: center;
+    background-size: 450px;
+
+
+}
+
+.t1{
+    background-image: url(../images/T1.jpg);
+    float: left !important;
+
+}
+
+.t2{
+    background-image: url(../images/T2.png);
+    float: left !important;
+    margin-left: 5%;
+
+}
+
+.t3{
+    background-image: url(../images/3.jpg);
+    float: right !important;
+    margin-left: 2.5%
+}
+
+
+.profile {
+    float: left;
+    background-repeat: no-repeat;
+    height: 50px !important;
+    border-radius: 50px 50px 50px 50px;
+    width: 50px !important;
+    background-image: url(../images/C1.png);
+    background-size: contain;
+}
+
+.comments{
+    color: black;
+    float: right;
+    width: 91%;
+    text-align: left;
+    height: 75px;
+}
+
+
+.banner{
+    height: 600px;
+
+
+}
+
+.tagline.work{
+    height: 600px;
+    padding: 80px !important;
+    margin: 0px;
+/*    margin-left: 5%;*/
+}
+
+
+.banner.about{
+    background-image: url(../images/c6.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+.page.title{
+
+    
+}
+
+
+#illus.row{
+    margin-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/***/
+
+.character h3.title{
+    color:#014719;
+}
+
+.container.character{
+    border-top: 5px solid #000;
+    height: 800px;
+}
+
+.character div.c1{
+    float: left;
+    width: 40%;
+    height: 610px;
+    background-image: url(../images/c1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom
+}
+.character div.c2-3{
+    float: right;
+    width: 60%;
+    height: 541px;
+    background-size: contain;
+    background-repeat: no-repeat;   
+    background-image: url(../images/c4.png);
+}
+
+.character div.c2{
+    float: right;
+    width: 60%;
+    height: 400px;
+    margin-top: 100px;
+    background-image: url(../images/c3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.container h3.title{
+    float: right;
+}
+
+
+.character div.comment{
+    height: 150px;
+    background: #000;
+    margin-top: 600px;
+    object-position: bottom;
+
+    
+}
+
+
+
+/****** ******/
+
+.container.concept-art{
+    border-top: 5px solid #014719;
+    height: 1300px;
+}
+
+div.ca1{
+    float: left;
+    max-width: 59%;
+    width: 60%;
+    height: 600px;
+    background-image: url(../images/ca1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+div.ca2-3{
+    float: right;
+    width: 40%;
+    height: 600px;
+
+
+}
+
+div.ca2{
+
+    width: 100%;
+    height: 295px;
+    background-image: url(../images/ca3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -9px;
+}
+div.ca3{
+    margin-top: 10px;
+    
+    width: 100%;
+    height: 295px;
+    background-image: url(../images/ca2.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+
+.container h3.title{
+    float: right;
+}
+
+
+.concept-art div.comment{
+    height: 150px;
+    background: #000;
+    margin-top: 1070px;
+    object-position: bottom;
+    color: white;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.ca4{
+    width: 32%;
+    margin-top: 9px;
+    float: left;
+    background-image: url(../images/A1.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    margin-right: .6%;
+
+}
+.ca5{
+    
+    width: 33%;
+    float: left;
+    background-image: url(../images/A2.png);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    margin-right:.3%;
+    margin-left: .3%;
+    
+}.ca6{
+    width: 33%;
+    float: right;
+    background-image: url(../images/A3.jpg);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    margin-left: .6%;
+}
+
+.comment{
+    text-align: right
+}
+
+/*******/
+
+.container.animal{
+    border-top: 5px solid #014719;
+    height: 1580px;
+}
+
+ .a1{
+
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/Oasis.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+     background-attachment: fixed;
+
+}
+
+.container h3.title{
+    float: right;
+}
+
+
+.animal div.comment{
+    height: 150px;
+    background: #000;
+    margin-top: 820px;
+    object-position: bottom;
+    position: relative;
+    color: white;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.a2{
+    width: 33.33%;
+
+    float: left;
+    background-image: url(../images/T1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+
+
+}
+.a3{
+    
+    width: 33.33%;
+    float: left;
+    background-image: url(../images/T2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+
+    
+}.a4{
+    width: 33.33%;
+    float: right;
+    background-image: url(../images/T3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+
+}
+
+.comment{
+    text-align: right
+}
+
+.three{
+    margin-top: 10px;
+}
+
+.d1{
+    width: 33.33%;
+
+    float: left;
+    background-image: url(../images/d1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+.d2{
+    
+    width: 33.33%;
+    float: left;
+    background-image: url(../images/d2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    
+}.d3{
+    width: 33.33%;
+    float: right;
+    background-image: url(../images/d3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.doe{
+    margin-top: 10px;
+}
+
+/*****  Band Parody  *****/
+
+.container.band{
+    border-top: 5px solid #014719;
+    height: 780px;;
+}
+
+div.b1{
+    float: left;
+    width: 25%;
+    height: 600px;
+    background-image: url(../images/b1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin-top: 59px;
+}
+
+div.b5{
+    float: right;
+    width: 25%;
+    height: 600px;
+    background-image: url(../images/b5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+div.mcr{
+    margin-top: 50px;
+    float: left;
+    width: 50%;
+    height: 200px;   
+
+
+
+}
+
+div.b2{
+    width: 100%;
+    height: 180px;
+    background-image: url(../images/b2.png);
+    background-size: contain;
+    background-repeat: no-repeat;    
+    background-position: left;
+
+}
+
+div.b3{  
+    width: 100%;
+    height: 180px;
+    background-image: url(../images/b3.png);
+    background-size: contain;
+    background-repeat: no-repeat;    
+    background-position: center;  
+    margin-top: -10px
+        
+}
+
+div.b4{
+    width: 100%;
+    height: 180px;
+    background-image: url(../images/b4.png);
+    background-size: contain;
+    background-repeat: no-repeat;    
+    background-position: right;
+    margin-top: -10px
+}
+
+
+
+.container h3.title{
+    float: right;
+}
+
+
+.band div.comment{
+    height: 150px;
+    background: #000;
+    margin-top: 575px;
+    object-position: bottom;
+    color: white;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+
+.comment{
+    text-align: right
+}
+
+.band div.right
+{
+    float: right;
+    width: 80%;
+    
+}
+
+
+/**** Fantasy ****/
+
+.container.fantasy{
+    border-top: 5px solid #014719;
+    height: 2230px;
+}
+
+div.f1{
+    float: left;
+    width: 24%;
+    height: 320px;
+    background-image: url(../images/f1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin-top: 59px;
+}
+
+div.f2{
+    float: left;
+    width: 24%;
+    height: 320px;
+    background-image: url(../images/f2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin-top: 59px;
+}
+
+div.f3{
+    float: left;
+    width: 24%;
+    height: 320px;
+    background-image: url(../images/f3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin-top: 59px;
+}
+
+div.f4{
+    float: right;
+    width: 24%;
+    height: 320px;
+    background-image: url(../images/f4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+div.f5{
+    margin-top: 10px;
+    float: right;
+    width: 100%;
+    height: 800px;
+    background-image: url(../images/f5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+div.f6{
+    margin-top: 10px;
+    float: right;
+    width: 100%;
+    height: 800px;
+    background-image: url(../images/f6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed
+
+}
+
+.container h3.title{
+    float: right;
+}
+
+
+.fantasy div.comment{
+    height: 150px;
+    background: #000;
+    margin-top: 2010px;
+    object-position: bottom;
+    color: white;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+
+.comment{
+    text-align: right
+}
+
+.band div.right
+{
+    float: right;
+    width: 80%;
+    
+}
+
+
+
+/*** ***/
+#banner.row{
+    margin-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*** ***/
+.summer div.comment{
+    height: 150px;
+    background: #000;
+    margin-top: 1065px;
+    object-position: bottom;
+}
+
+.container.summer{
+    border-top: 5px solid #000;
+    height: 1600px;
+}
+
+.summer{
+    width: 100%;
+    margin-top:40px;
+
+}
+.summer div{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 260px;
+    background-position:top; 
+}
+
+.s1{
+    width: 33%;
+    float: left;
+    background-image: url(../images/s1.png);
+        margin-top:20px;
+
+}
+.s2{
+    
+    width: 33.33%;
+    float: left;
+    background-image: url(../images/s2.png);
+    margin-left: .33%;
+    margin-right: .33%;
+    margin-top:20px;
+    
+}.s3{
+    width: 33%;
+    float: right;
+    background-image: url(../images/s3.png);
+}
+
+.s4{
+    width: 33%;
+    float: right;
+    background-image: url(../images/s4.png);
+
+
+}
+.s5{
+    
+    width: 33.33%;
+    float: right;
+    background-image: url(../images/s5.png);
+    margin-left: .33%;
+    margin-right: .33%;
+
+    
+}.s6{
+    width: 33%;
+    float: right;
+    background-image: url(../images/s6.png);
+}
+
+.s7{
+    width: 33%;
+    float: right;
+    background-image: url(../images/s7.png);
+
+
+}
+.s8{
+    
+    width: 33.33%;
+    float: right;
+    background-image: url(../images/s8.png);
+    margin-left: .33%;
+    margin-right: .33%;
+
+    
+}.s9{
+    width: 33%;
+    float: right;
+    background-image: url(../images/s9.png);
+}
+.s10{
+    width: 33%;
+    float: right;
+    background-image: url(../images/s10.png);
+
+
+}
+.s11{
+    
+    width: 33.33%;
+    float: right;
+    background-image: url(../images/s11.png);
+    margin-left: .33%;
+    margin-right: .33%;
+
+    
+}.s12{
+    width: 33%;
+    float: right;
+    background-image: url(../images/s12.png);
+}
+.s13{
+    width: 33%;
+    float: right;
+    background-image: url(../images/s13.png);
+
+
+}
+.s14{
+    
+    width: 33.33%;
+    float: right;
+    background-image: url(../images/s14.png);
+    margin-left: .33%;
+    margin-right: .33%;
+
+    
+}.s15{
+    width: 33%;
+    float: right;
+    background-image: url(../images/s15.png);
+}
+
+
+/***** *****/
+
+
+.labor div.comment{
+    height: 150px;
+    background: #000;
+    margin-top: 20px;
+    object-position: bottom;
+}
+
+.container.labor{
+    border-top: 5px solid #000;
+    height: 500px;
+}
+
+
+.labor{
+    width: 100%;
+    margin-top:40px;
+}
+.labor div{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 190px;
+    background-position:top; 
+}
+
+.l1{
+    width: 24%;
+    float: left;
+    background-image: url(../images/l1.png);
+        margin-top:20px;
+
+}
+.l2{
+    
+    width: 24%;
+    float: left;
+    background-image: url(../images/l2.png);
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top:20px;
+    
+}.l3{
+    width: 24%;
+    float: left;
+    background-image: url(../images/l3.png);
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 20px;
+}
+
+.l4{
+    width: 24%;
+    float: left;
+    background-image: url(../images/l4.png);
+
+
+}
+
+
+
+/*****
+*****/
+
+/***** *****/
+.container.parent{
+    border-top: 5px solid #000;
+    height: 1000px;
+}
+.parent{
+    width: 100%;
+    margin-top:40px;
+    height: 1000px;
+}
+.parent div{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 260px;
+    background-position:top; 
+}
+
+.p1{
+    width: 33%;
+    float: left;
+    background-image: url(../images/p1.png);
+        margin-top:20px;
+
+}
+.p2{
+    
+    width: 33.33%;
+    float: left;
+    background-image: url(../images/p2.png);
+    margin-left: .33%;
+    margin-right: .33%;
+    margin-top:20px;
+    
+}.p3{
+    width: 33%;
+    float: right;
+    background-image: url(../images/p3.png);
+    margin-top:px;
+}
+
+.p4{
+    width: 33%;
+    float: right;
+    background-image: url(../images/p4.png);
+
+
+}
+
+.p5{
+    width: 33%;
+    float: left;
+    background-image: url(../images/p5.png);
+
+
+}
+.p6{
+    
+    width: 33.33%;
+    float: left;
+    background-image: url(../images/p6.png);
+    margin-left: .33%;
+    margin-right: .33%;
+
+    
+}.p7{
+    width: 33%;
+    float: right;
+    background-image: url(../images/p7.png);
+}
+
+.p8{
+    width: 33%;
+    float: right;
+    background-image: url(../images/p8.png);
+
+
+}
+
+.p9{
+    width: 33%;
+    float: right;
+    background-image: url(../images/p9.png);
+
+
+}
+
+
+
+    
+.parent div.comment{
+    height: 150px;
+    background: #000;
+    margin-top: 540px;
+    object-position: bottom;
+}
+
+
+
+
+/***************************************/
+
+footer ul{
+    display: flex;
+    margin: 0;
+    padding: 0 100PX;
+    float: right;
+    margin-top: 20px;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul  li *{
+    display: block;
+    color: #444;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+    font-size:  12px;
+}
+
+footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 150px;
+    background-color: #fff;
+        margin-left: -10px;
+    margin-right: -8px;
+    
+}
+
+footer .logo-img-foot{
+    background-image: url("../images/logo-b.png");
+    background-repeat: no-repeat;
+    height: 130px !important;
+    margin-left: 5%;
+    width: 500px;
+    margin-top: -15px;
+    background-size: contain;  
+    
+}
+
+footer .ig{
+    background-image: url("../images/iglogo.png");
+    background-repeat: no-repeat;
+    height: 50px !important;
+    margin-left: -165%;
+    width: 50px;
+    margin-top: 45px;
+    background-size: contain;  
+    
+}
+
+.banner.work{
+    background-image: url(../images/c5.png);
+    background-size: 37%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+        
+}
+
+.banner.home{
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+        
+}
+
+.column.center{
+    background-image: url(../images/profile.png);
+    background-size: cover
+}
+
+.more-skills h3{
+    color: black;
+    
+}
+.side h2{
+    color: black;
+    
+}
+
+
+.more-skills .top{
+    background: white;
+}
+
+.top{
+    background: white;
+}
+.lft{
+    text-align: right
+}
+
+.rgt{
+    text-align: left
+}
+
+.verygood, .good, .poor li{
+    list-style: none;
+    color: #000;
+    text-decoration: none;
+    padding-left: 25px;
+    font-weight: lighter;
+
+}
+
+.info li{
+    color: #000;
+    text-decoration: none;
+    padding-left: -25px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    
+}
+
+h5{
+    list-style: none;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: -1px;
+    font-size: 20px;
+
+}
+.top h2{
+    color: black;
+    text-align: center
+}
+
+h6{
+    text-align: center;
+}
+
+#contact{
+    width: 60%;
+    margin-left: 20%;
+    align-content: center;
+    text-align: center;
+    background: black;
+}
+
+a.contact{
+    border-radius: 5px;
+    padding: 15px;
+    background: #333;
+    margin: 30px 10px 0 30px;
+    text-decoration: none;
+    color: white;
+
+    
+}
+
+.top h5{
+    list-style: none;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: lowercase;
+    text-align: center;
+
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+
+
+}
+.about h2{
+    margin-top: 30px !important;
+}
+
+.top h2{
+    margin: 0
+}
+
+.more-skill{
+    border-top: 2px solid black;
+}
+
+a:hover{
+    transform: rotate(4deg);
+}
+
+.illus-right a {
+    /* background: white; */
+    padding: 5px 10px;
+    margin: 0px 15px;
+    border-radius: 8px;
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid;
+}
+
+
+
+
+
+.illus-right a:hover {
+    background: white;
+    border: 2px solid white;
+    transition: .2s;
+    transition-timing-function: ease-out;
+    color: #fa8c00;
+}
+
+.webdev h3 {
+    text-align: left;
+    color: #9f5119;
+    margin-left: 500px;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+}
+
+.illus-left h3 {
+    text-align: left;
+    color:#9f5119;
+    margin-left: 500px
+}
+
+.illus-left h3:nth-of-type(1) {
+    margin-top: 70px;
+}
+
+.tagline h1:nth-of-type(1) {
+    margin-top: 118px;
+}
+.tagline h4 {
+    font-size: 15px;
+    margin: 0 0px;
+    color: black;
+}
+.tagline h1{
+        color: black;
+    font-size: 45px
+}
+
+
